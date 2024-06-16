@@ -1,8 +1,13 @@
+import Path from '../components/Path';
+
+
 const Shop = () => {
     return (
       
         <div>
-            <h1>LOJA</h1>
+            <div>
+                <Path />
+            </div>
         </div>
   
     )

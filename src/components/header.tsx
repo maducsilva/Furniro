@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/navbar/logo.png';
 
@@ -6,7 +6,7 @@ const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="sticky top-0 z-50 px-12 bg-wisper flex justify-between py-8 md:justify-around items-center w-[100vw] h-20 font-raleway font-normal text-lg text-primaryLunarGreen shadow">
+    <div className=" top-0 z-50 bg-wisper flex justify-between py-8 md:justify-around items-center w-[100vw] h-20 font-Poppins text-lg shadow ">
       <Link to="/">
         <img src={Logo} alt="Logo Plant Peace" />
       </Link>
@@ -48,7 +48,7 @@ const Header = () => {
           </ul>
           <div>
             <button>
-              <img src="/src/assets/navbar/logoUser.png" className="hover:w-[40px]" alt="" />
+              <img src="/src/assets/navbar/user.png" className="hover:w-[40px]" alt="" />
             </button>
           </div>
         </div>

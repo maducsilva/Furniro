@@ -1,0 +1,61 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title": "Syltherine",
+            "description": "Stylish cafe chair",
+            "price": 2.500,
+            "imgUrl": "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsProducts/image+1.png"
+        },
+        {
+            "id":2,
+            "title": "Leviosa",
+            "description": "Stylish cafe chair",
+            "price": 2.500,
+            "imgUrl": "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsProducts/image+2.png"
+        },
+        {
+            "id":3,
+            "title": "Lolito",
+            "description": "Luxury big sofa",
+            "price": 7.0000,
+            "imgUrl": "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsProducts/Image3.png"
+        },
+        {
+            "id":4,
+            "title": "Respira",
+            "description": "Outdoor bar table and stool",
+            "price": 500.000,
+            "imgUrl": "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsProducts/image+4.png"
+        },
+        {
+            "id":5,
+            "title": "Grifo",
+            "description": "Night lamp",
+            "price": 1.500,
+            "imgUrl": "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsProducts/Image+5.png"
+        },
+        {
+            "id":6,
+            "title": "Muggo",
+            "description": "Small mug",
+            "price": 150.000,
+            "imgUrl": "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsProducts/image+6.png"
+        },
+        {
+            "id":7,
+            "title": "Pingky",
+            "description": "Cute bed set",
+            "price": 7.000,
+            "imgUrl": "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsProducts/image+7.png"
+        },
+        {
+            "id":8,
+            "title": "Potty",
+            "description": "Minimalist flower pot",
+            "price": 500.000,
+            "imgUrl": "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsProducts/image+8.png"
+        }
+        
+    ]
+}
