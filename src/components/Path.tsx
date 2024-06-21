@@ -1,11 +1,12 @@
 import { useLocation } from 'react-router-dom';
 
+
 const Path = () => {
   const location = useLocation();
+  const logo = "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsComponents/icons/logo.png"
 
-  // Determina o nome da página com base na pathname da rota
   let pageName = '';
-  
+
   switch (location.pathname) {
     case '/shop':
       pageName = 'Shop';
@@ -22,9 +23,10 @@ const Path = () => {
   }
 
   return (
-    <div className="w-[100vw] h-[316px] bg-mustard flex flex-col justify-center items-center">
-      <h1>{pageName}</h1>
-      <p>Home {'>'} {pageName} </p>
+    <div className="w-[100vw] h-[316px] bg-img-path bg-no-repeat flex flex-col justify-center items-center font-Poppins font-medium">
+            <img src={logo} alt="" />
+            <h1 className=' text-48'>{pageName}</h1>
+            <p className='text-16'><span className="font-bold">Home {'>'}</span> {pageName} </p>
     </div>
   );
 }

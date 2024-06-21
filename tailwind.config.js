@@ -14,7 +14,8 @@ export default {
         peach: "#FFF3E3",
         mustard: "#B88E2F",
         grayBackground:"#F4F5F7",
-        blackhover:"#3A3A3A"
+        blackhover:"#3A3A3A",
+        pink: "#F9F1E7",
 
       },
 
@@ -67,7 +68,10 @@ export default {
         285:"17.813rem",
         202:"12.625rem",
         245:"15.313rem",
-        404:"25.25REM"
+        404:"25.25rem",
+        176:"11rem",
+        48:"3rem",
+        876:"54.75rem"
 
       },
 
@@ -80,7 +84,8 @@ export default {
         670:"41.875rem",
         48:"3rem",
         582:"36.375rem",
-        130:"8.125rem"
+        130:"8.125rem",
+        270:"16.875rem",
       },
 
       margin:{
@@ -103,7 +108,7 @@ export default {
 
       backgroundImage: {
         'img-header': "url('https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsHome/header.jpg')",
-        'img-path': "url('')"
+        'img-path': "url('https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsComponents/img-path.png')"
       },
 
       padding:{

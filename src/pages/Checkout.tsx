@@ -1,11 +1,15 @@
+import Path from '../components/Path';
+import Details from '../components/Details';
+import Protection from '../components/Protection';
+
 const Checkout = () => {
+
     return (
-      
         <div>
-            <h1>CHECKOUT</h1>
+            <Path />
+            <Details />
+            <Protection />
         </div>
-  
     )
   }
-
   export default Checkout

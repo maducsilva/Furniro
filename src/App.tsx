@@ -1,7 +1,7 @@
-import Header from "./components/header"
-import Footer from "./components/footer"
-import AppRoutes from "./routes/AppRoutes"
-import './App.css'
+import Header from "./components/header";
+import Footer from "./components/footer";
+import AppRoutes from "./routes/AppRoutes";
+import './App.css';
 
 function App() {
   return (
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

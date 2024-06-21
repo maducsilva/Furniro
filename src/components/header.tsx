@@ -1,14 +1,17 @@
 import  { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/navbar/logo.png';
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
+  const logo = "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsComponents/icons/logo.png"
+  const user = "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsComponents/icons/user.svg"
+  const cart = "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsComponents/icons/cart.svg"
+
   return (
     <div className=" top-0 z-50 bg-wisper flex justify-between py-8 md:justify-around items-center w-[100vw] h-20 font-Poppins text-lg shadow ">
-      <Link to="/">
-        <img src={Logo} alt="Logo Plant Peace" />
+      <Link className='flex font-Poppins font-bold text-34 items-center space-x-2' to="/">
+        <img src={logo} alt="" /> Furniro
       </Link>
 
       <section className="flex md:hidden">
@@ -67,11 +70,11 @@ const Header = () => {
         </section>
 
         <div className="flex flex-row items-center ml-14">
-          <button>
-            <img src="/src/assets/navbar/user.svg" className="hover:w-[40px] mr-12" alt="" />
+          <button >
+            <Link to="/"><img src={user} className="hover:w-[40px] mr-12" alt="" /></Link>
           </button>
           <button>
-            <img src="/src/assets/navbar/cart.svg" className="hover:w-[40px]" alt="" />
+          <Link to="/cart"><img src={cart} className="hover:w-[40px] mr-12" alt="" /></Link>
           </button>
         </div>
       </div>

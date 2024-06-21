@@ -3,9 +3,9 @@ const GridHome = () => {
       <div className="font-Poppins text-center w-[100vw] pb-50 mt-[117px]">
       <p className="text-20 font-semibold">Share your setup with</p>
       <h1 className="text-40 font-bold">#FuniroFurniture</h1>
-      <div className="grid gap-4 h-[780px] flex justify-center">
+      <div className="grid gap-4 h-[780px] flex justify-center mt-12">
         <div className="row-span-2 col-start-1 col-end-3 flex justify-start items-end relative overflow-hidden">
-          <img src="https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsHome/grid9.png" className="mx-0 h-full transform translate-x-[0%]" alt="" />
+          <img src="https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsHome/grid9.png" className="ml-12" alt="" />
           <img src="https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsHome/grid1.png" className="absolute w-[400px] ml-40" alt="" />
         </div>
         <div className="row-span-3 row-start-2 row-end-5 col-start-3 col-end-5 flex items-center justify-center">

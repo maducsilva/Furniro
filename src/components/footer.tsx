@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
+const sociais = "https://mariaedurda-projetofurniro.s3.amazonaws.com/imgsComponents/sociais.png"
+
+
   return (
     <footer className='relative h-160 md:h-505 w-[100vw]'>
         <hr className="border-gray my-4" />
@@ -9,6 +12,7 @@ const Footer = () => {
           <div className='ml-10 space-y-[0.3125rem] md:space-y-[1rem] w-286'>
             <h3 className='font-Poppins text-20 md:text-24'>Furniro</h3>
             <p className='font-Poppins text-grayFonte text-10 md:text-16'>400 University Drive Suite 200 Coral Gables,<br />FL 33134 USA</p>
+            <img src={sociais} alt="" />
           </div>
           <div className=' ml-auto flex'>
             <ul className="mr-[8px] md:mr-[52px] space-y-[5px] md:space-y-46">

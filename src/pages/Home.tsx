@@ -1,3 +1,4 @@
+import React from 'react';
 import NewHome from '../components/NewHome';
 import BrowseHome from '../components/BrowseHome';
 import OurProducts from '../components/OurProducts';
@@ -9,7 +10,7 @@ const Home = () => {
     <div>
       <NewHome />
       <BrowseHome />
-      <OurProducts numCols={4} />
+      <OurProducts numCols={4} selectedCategory="all" />
       <BeautifulHome />
       <GridHome />
     </div>    
